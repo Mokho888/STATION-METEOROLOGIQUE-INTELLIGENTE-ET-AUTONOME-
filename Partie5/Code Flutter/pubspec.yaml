@@ -1,0 +1,45 @@
+name: ma_station
+description: "Station météo - Température & Humidité en temps réel"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Firebase
+  firebase_core: ^3.13.0
+  firebase_database: ^11.3.5
+
+  # Graphiques
+  fl_chart: ^0.70.2
+
+  # Typographie
+  google_fonts: ^6.2.1
+
+  # Stockage local
+  shared_preferences: ^2.3.5
+
+  # Formatage des dates
+  intl: ^0.20.2
+
+  # Export Excel
+  excel: ^4.0.6
+  web: ^1.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
