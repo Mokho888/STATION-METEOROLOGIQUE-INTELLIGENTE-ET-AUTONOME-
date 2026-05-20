@@ -1,0 +1,42 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "meteo-f6152",
+          "appId": "1:909668627382:android:2e0f7c0877711f951d0717",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "meteo-f6152",
+          "configurations": {
+            "android": "1:909668627382:android:2e0f7c0877711f951d0717",
+            "ios": "1:909668627382:ios:f78cb2e9c703f9e51d0717",
+            "macos": "1:909668627382:ios:f78cb2e9c703f9e51d0717",
+            "web": "1:909668627382:web:a2077fe4febfdf311d0717",
+            "windows": "1:909668627382:web:f999d62575fac2b11d0717"
+          }
+        }
+      }
+    }
+  },
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
